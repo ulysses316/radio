@@ -1,0 +1,96 @@
+/*Index*/
+.footer-grid{
+    display: grid;
+    grid-template-rows: 8fr 1fr;
+}
+.colum-footer{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 40px;
+}
+/*Navbar*/
+a:hover{
+    color: #3FC4A7 !important;
+}
+.redes{
+    font-size: 23px;
+    margin-right: 5px;
+    color: black;
+}
+
+.descripcion h1{
+  text-align: center; 
+}
+
+.margin-35{
+    margin-top:35px;
+}
+
+.presentacion-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90vh;
+    grid-gap: 15px;
+}
+
+.presentacion-imagen{
+    border-radius: 350px 0px 0px 350px; 
+    height: 100%;
+    position: absolute;
+}
+@media only screen and (max-width: 600px) {
+    .presentacion-grid{
+        display: grid;
+        grid-template-columns: none;
+        grid-auto-rows: 1fr 1fr; 
+        grid-gap: 0px;
+    }
+    .presentacion-imagen{
+        border-radius: 0px 0px 0px 0px; 
+        height: 100%;
+        position: initial;
+    }
+    .colum-footer{
+        display: grid;
+        grid-template-columns: none;
+        grid-template-rows: 1fr 2fr;
+        grid-gap: 40px;
+    }
+  }
+  
+/*Programacion*/
+.capa{
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 45vh;
+    background: url(../img/amanece.jpg);
+    background-size: cover;
+}
+h2{
+    color: white;
+}
+
+.flex-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*Programas*/
+/*Fotos*/
+/*About*/
+
+/*REDES*/
+.facebook:hover{
+    color: #3B5A99 !important;
+}
+.instagram:hover{
+    color: #B04096 !important;
+}
+.spotify:hover{
+    color: #52D860 !important;
+}
+.twitch:hover{
+    color: #6441A5 !important;
+}
+.twitter:hover{
+    color: #5CA9DD !important;
+}

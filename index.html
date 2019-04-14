@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="style/master.css">
+    <link rel="stylesheet" href="./node_modules/bulma/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="index.html">
+                <strong style="font-size:30px !important;">Stereo radio</strong>
+            </a>
+
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+                data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+                    <a href="index.html" class="navbar-item">Inicio</a>
+                    <a href="programacion.html" class="navbar-item">Programacion</a>
+                    <a href="programa.html" class="navbar-item">Programas</a>
+                    <a href="fotos.html" class="navbar-item">Fotos</a>
+                    <a href="about.html" class="navbar-item">Acerca</a>
+            </div>
+
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="buttons">
+                            <a class="redes"><i class="far fa-envelope"></i></a>
+                            <a class="redes"><i class="fab fa-twitch twitch"></i></a>
+                            <a class="redes"><i class="fab fa-twitter twitter"></i></a>
+                            <a class="redes"><i class="fab fa-facebook facebook"></i></a>
+                            <a class="redes"><i class="fab fa-instagram instagram"></i></a>
+                            <a class="redes"><i class="fab fa-itunes-note"></i></a>
+                            <a class="redes"><i class="fab fa-spotify spotify"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section id="presentacion" class="container presentacion-grid">
+        <div class="descripcion columns is-vcentered">
+            <div>
+                <h1 class="is-size-2">Compartiendo la musica que nos a inspirado</h1>
+                <p class="margin-35"><strong>lorem ipsum</strong></p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio molestias animi culpa quaerat nam ducimus est deserunt, distinctio esse fuga, doloremque ipsa explicabo eum cupiditate, eius beatae. Incidunt, ut nihil!</p>
+                <p class="margin-35 is-centered column has-text-centered"><a href="about.html" class="button is-primary">Leer mas</a></p>
+            </div>
+        </div>
+        <div class="">
+            <div class="">
+                <img class="presentacion-imagen" src="img/TORNA.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <footer class="footer-grid container">
+            <div class="colum-footer container">
+                <div>
+                    <p class="is-size-4">Contacto</p>
+                    <br>
+                    <p>Torre de radiodifusoras, segundo piso.
+                        Mayorazgo 83, Col. Xoco
+                        C. P. 03330, Deleg. Benito Juárez
+                        Ciudad de México. México</p>
+                    <br>
+                    <p class="is-size-4">Telefonos</p>
+                    <br>
+                    <p> Teléfonos en cabina 5601 6399 y 5601 6397</p>
+                    <p> Gerencia 5628 1719</p>
+                </div>
+                <div>
+                    <p class="is-size-4">¿Quieres mandarnos una cancion?</p>
+                    <div class="field">
+                        <label class="label">Nombre de la banda</label>
+                        <div class="control">
+                            <input class="input" type="text">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label">Genero</label>
+                        <div class="control">
+                            <input class="input" type="text">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label">Nombre</label>
+                        <div class="control has-icons-left has-icons-right">
+                            <input class="input" type="text">
+                            <span class="icon is-small is-left">
+                                <i class="fas fa-user"></i>
+                            </span>
+                        </div>
+                    </div>
+    
+                    <div class="field">
+                        <label class="label">Email</label>
+                        <div class="control has-icons-left has-icons-right">
+                            <input class="input" type="email" placeholder="ejemplo@mail.com">
+                            <span class="icon is-small is-left">
+                                <i class="fas fa-envelope"></i>
+                            </span>
+                        </div>
+                    </div>
+    
+                    <div class="field">
+                        <label class="label">Informacion del grupo y contacto</label>
+                        <div class="control">
+                            <textarea class="textarea" placeholder="Mensaje"></textarea>
+                        </div>
+                    </div>
+    
+                    <div class="file has-name is-fullwidth">
+                        <label class="file-label">
+                            
+                            <input class="file-input" type="file" name="resume">
+                            <span class="file-cta">
+                                <span class="file-icon">
+                                    <i class="fas fa-upload"></i>
+                                </span>
+                                <span class="file-label">
+                                    Cancion
+                                </span>
+                            </span>
+                            <span class="file-name">
+                                
+                            </span>
+                        </label>
+                    </div>
+    
+                    <div class="field is-grouped margin-35">
+                        <div class="control">
+                            <button class="button is-primary">Enviar</button>
+                        </div>
+                        <div class="control">
+                            <button class="button is-text">Cancelar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-title margin-35">
+                <p>We <i class="fas fa-heart"></i> the <i class="fab fa-itunes-note"></i></p>
+            </div>
+        </footer>
+    <script src="/script/stript.js"></script>
+</body>
+</html>
